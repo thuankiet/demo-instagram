@@ -10,6 +10,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
+    background-color: #FFF;
 }
 
 .container .head {
@@ -20,9 +21,19 @@ body {
     justify-content: center;
 }
 
+.container .head .logo {
+    width: 340px;
+}
+
 .container .head .logo img{
     width: 120px;
     height: 40px;
+}
+
+.container .head .search {
+    display: flex;
+    position: relative;
+    color: #AAA;
 }
 
 .container .head .search input {
@@ -32,7 +43,23 @@ body {
     width: 220px;
     height: 25px;
     font-size: 16px;
-    margin: 0 270px;
+    display: flex;
+    outline: none;
+    padding-left: 30px;
+}
+
+.container .head .search i {
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 12px;
+    font-size: 12px;
+
+}
+
+.container .head .icons {
+    width: 340px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container .head .icons .icon {
@@ -44,5 +71,12 @@ body {
 .container .head .icons .fa-user-circle {
     color: #DDD;
 }
+
+
+
+
+
+
+
 
 
