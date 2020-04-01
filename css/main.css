@@ -9,9 +9,8 @@ body {
 }
 
 .main .block {
-    background-color: #FFF;
     width: 600px;
-    height: 1000px;
+    height: 965px;
 }
 .main .block .content {
     height: 50px;
@@ -25,13 +24,13 @@ body {
 
 .main .block .items {
     border: 1px solid #CCC;
-    height: 950px;
     border-radius: 3px;
+    background-color: #FFF;
+    height: 910px;
 }
 
 .main .block .items .item {
     height: 70px;
-    border: 1px solid #CCC;
     display: flex;
     align-items: center;
 }
@@ -41,5 +40,95 @@ body {
     width: 50px;
     border: 1px solid #CCC;
     border-radius: 25px;
-    margin-left: 10px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../image/insta.jpg');
+    background-size: cover;
+}
+
+.main .block .items .item .info {
+    font-size: 15px;
+}
+
+.main .block .items .item .info .user-name img {
+    width: 16px;
+    height: 16px;
+    padding: 0 5px;
+}
+
+.main .block .items .item .info .name {
+    color: #AAA;
+}
+
+.main .block .items .item .info .status {
+    color: #AAA;
+    font-size: 13px;
+}
+
+.main .block .items .item .info {
+    font-size: 15px;
+    flex-grow: 1;
+}
+
+.main .block .items .item button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196F3;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.main .block .items .item .zara {
+    background-image: url('./../image/zara.jpg');
+}
+
+.main .block .items .item .tasty {
+    background-image: url('./../image/tasty.png');
+}
+
+.main .block .items .item .nike {
+    background-image: url('./../image/nike-logo.png');
+}
+
+.main .block .items .item .ibra {
+    background-image: url('./../image/ibrahimovic.jpg');
+}
+
+.main .block .items .item .michaelkors {
+    background-image: url('./../image/michael-kors.jpg');
+}
+
+.main .block .items .item .katy-perry {
+    background-image: url('./../image/katy-perry.jpg');
+}
+
+.main .block .items .item .therock {
+    background-image: url('./../image/therock.jpeg');
+}
+
+.main .block .items .item .cr7 {
+    background-image: url('./../image/cr7.jpg');
+}
+
+.main .block .items .item .luis-fonsi {
+    background-image: url('./../image/luis-fonsi.jpg');
+}
+
+.main .block .items .item .taylor-swift {
+    background-image: url('./../image/taylor-swift.jpg');
+}
+
+.main .block .items .item .emma-watson {
+    background-image: url('./../image/emma-watson.jpg');
+}
+
+.main .block .items .item .juventus {
+    background-image: url('./../image/juventus.jpg');
 }
