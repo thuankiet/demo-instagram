@@ -1,17 +1,48 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 .container {
     width: 100%;
     height: 50px;
-    border: 1px solid black;
-    margin: 0;
+    border-bottom: 1px solid #CCC;
+    align-items: center;
     display: flex;
+    justify-content: center;
 }
 
-.container .logo img{
+.container .head {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .head .logo img{
     width: 120px;
     height: 40px;
-    margin: 5px 0 5px 200px;
 }
+
+.container .head .search input {
+    background-color: #eeeeee4d;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    width: 220px;
+    height: 25px;
+    font-size: 16px;
+    margin: 0 270px;
+}
+
+.container .head .icons .icon {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.container .head .icons .fa-user-circle {
+    color: #DDD;
+}
+
+
