@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.footer ul{
+    display: flex;
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-right: 15px;
+    color: #00376b;
+    font-weight: bold;   
+}
